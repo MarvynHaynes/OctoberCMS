@@ -1,0 +1,17 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    ScID:
+        label: Scenario ID
+        type: text
+
+    ScHeadline:
+        label: Scenario Headline
+        type: text
+
+    ScDescription:
+        label: Scenario Description
+        type: richeditor
+        size: huge

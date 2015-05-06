@@ -1,0 +1,8 @@
+1.0.1:
+     - Initilize Plugin.
+     - create_contacts_table.php
+     - create_notes_table.php
+     - create_offerings_table.php
+     - create_opportunities_table.php
+     - create_status_table.php
+     - seed_all_tables.php

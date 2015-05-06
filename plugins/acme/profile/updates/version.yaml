@@ -1,0 +1,5 @@
+1.0.1: First version of Profile
+1.0.2:
+     - Created profile table
+     - create_profiles_table.php
+     - add_profile_to_users_table.php

@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    ScID:
+        label: Scenario ID
+        type: number
+
+    ScHeadline:
+        label: Scenario Headline
+        type: text
+
+    ScDescription:
+        label: Scenario Description
+        type: text

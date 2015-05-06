@@ -1,0 +1,24 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        name:
+            label: Opportunity name
+            comment: Enter a project name for the opportunity.
+            tab: Details
+
+        description:
+            label: description
+            type: richeditor
+            size: huge
+            tab: Brief
+
+            status:
+                label: status
+                type: relation
+
+            offering:
+                label: offerings
+                type: relation

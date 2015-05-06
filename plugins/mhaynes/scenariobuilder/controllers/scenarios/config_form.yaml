@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Scenario
+
+# Model Form Field configuration
+form: $/mhaynes/scenariobuilder/models/scenario/fields.yaml
+
+# Model Class name
+modelClass: Mhaynes\ScenarioBuilder\Models\Scenario
+
+# Default redirect location
+defaultRedirect: mhaynes/scenariobuilder/scenarios
+
+# Create page
+create:
+    title: Create Scenario
+    redirect: mhaynes/scenariobuilder/scenarios/update/:id
+    redirectClose: mhaynes/scenariobuilder/scenarios
+
+# Update page
+update:
+    title: Edit Scenario
+    redirect: mhaynes/scenariobuilder/scenarios
+    redirectClose: mhaynes/scenariobuilder/scenarios
+
+# Preview page
+preview:
+    title: Preview Scenario
